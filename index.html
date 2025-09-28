@@ -19,7 +19,7 @@
   <body class="light-page">
     <!-- Navbar gets added here -->
     <h5>
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <nav class="navbar navbar-expand-sm site-nav">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Michael Voelkelt</a>
           <button
@@ -33,13 +33,12 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+          
 
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html"
-                  >Home</a
-                >
+                <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
@@ -54,49 +53,100 @@
     </h5>
 
     <!-- Main content -->
-    <main class="container py-4">
-      <h1 class="mb-2">Simple Theme in Action</h1>
-      <p class="mb-3">
-        This paragraph uses the page text color. Here’s a
-        <a href="#">content link</a>.
-      </p>
+    <main class="container p-4 ">
+      <h1 class=" mb-4 box shadow-sm mb-4" style="max-width: 50rem" >Home</h1>
+
+    
 
       <!-- Hero -->
-      <section class="p-5 mb-4 bg-body-tertiary rounded-3">
-        <h2 class="display-6 mb-3">Hero Section</h2>
+      <section
+        class="box shadow-sm mb-4"
+        class="container-fluid"
+       >
+        <h2 class="display-6 mb-3">Introduction</h2>
         <p>
-          Hello I am Michael Voelkelt, I am a student at Metropolitan State
-          University of Denver. i am currently starting out my first semester as
-          of Fall 2025. 
+          Hello I am Michael Voelkelt, I have just graduated from Colorado Early
+          College Douglas County North and have also graduated with an
+          Associated Degree in Science from Arapahoe Community College, as of
+          spring 2025. I am now a student at Metropolitan State University of
+          Denver. I am starting out my first semester as of Fall 2025, and I am
+          majoring in Advanced Manufacturing Sciences.
         </p>
-        <a class="btn btn-primary" href="#">Get Started</a>
+        <a
+          class="btn btn-primary"
+          href="https://www.msudenver.edu/advanced-manufacturing/"
+          >Explore My Major at MSU</a
+        >
       </section>
 
       <!-- Box -->
-      <div class="box mb-4">
-        <h3 class="h5">Plain Box</h3>
-        <p class="mb-0">
-          This is a plain div styled as a surface. <a href="#">Read more</a>
-        </p>
+      <div class="box shadow-sm mb-4" style="max-width: 30rem">
+        <img
+          class="img-fluid"
+          src="images/homepage.jpg"
+          class="rounded"
+          alt="Image of Michael"
+          class="container-fluid"
+          width="400"
+          height="200"
+        />
       </div>
 
       <!-- Card -->
-      <div class="card shadow-sm mb-4" style="max-width: 40rem">
+      <h2 class="mb-2 box shadow-sm mb-4" style="max-width: 50rem">Skills and Expertise</h2>
+      <div class="card shadow-sm mb-4" style="max-width: 60rem">
         <div class="card-body">
-          <h4 class="card-title h5">Card Title</h4>
-          <p class="card-text">
-            Cards pick up the surface/background and text from the theme.
-          </p>
-          <a class="btn btn-primary" href="#">Card Action</a>
+                       
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item">
+              <b>Collaboration: Soft Skill</b>
+              <p>
+                Work efficiently and effectively across teams (school projects &
+                labs, marching band, work) and also openly communicate and
+                problem solve.
+              </p>
+            </li>
+            <li class="list-group-item">
+              <b>Organization: Soft Skill</b>
+              <p>
+                Great at organizing multiple tasks and schedule around issues to
+                meet dealines and workflows.
+              </p>
+            </li>
+            <li class="list-group-item">
+              <b>Notary Public: Technical Skill</b>
+              <p>
+                A Colorado Notary Public that is certified and experienced in
+                handling legal documents, keeping compliance, and safegaurding
+                personal information.
+              </p>
+            </li>
+            <li class="list-group-item">
+              <b>Coding: Technical Skill</b>
+              <p>
+                Learning CSS and Bootstrap 5 at the basic level to develop html
+                and web interfaces.
+              </p>
+            </li>
+            <li class="list-group-item">
+              <b>Research and Documentation: Technical Skill</b>
+              <p>
+                Experienced in gathering, analyzing, and organizing data for
+                formal lab reports or research propossals.
+              </p>
+            </li>
+            <li class="list-group-item">
+              <b>Anayltical Writing and skills: Technical Skill</b>
+              <p>
+                Proficient in translating complex ideas and data into digestable
+                and consise documentation and formats.
+              </p>
+            </li>
+          
+          </ol>
         </div>
       </div>
 
-      <!-- List group -->
-      <ul class="list-group" style="max-width: 28rem">
-        <li class="list-group-item">First item</li>
-        <li class="list-group-item">Second item</li>
-        <li class="list-group-item">Third item</li>
-      </ul>
     </main>
 
     <script>
